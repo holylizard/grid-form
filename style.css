@@ -54,19 +54,12 @@ h1 {
     font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.social-icons a img {
-    width: 50px;
-    margin-top: 30px;
-    
+.social-icons {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
-.img-1 {
-    margin-left: 180px;
-}
-
-.img-2 {
-    margin-left: 20px;
-}
 
 .form-p {
     font-size: 18px;
@@ -116,11 +109,16 @@ h1 {
 
     .grid-container {
         display: block;
-        height: 350px;
+        height: 400px;
+    }
+
+    .social-icons img {
+        width: 40px;
+        margin-top: 20px;
     }
 
     .form-div {
-        height: 350px;
+        height: 400px;
     }
 
     .heading-div {
@@ -129,6 +127,10 @@ h1 {
 
     .form-heading { 
         color: #e30b5c;
+    }
+
+    .form-p {
+        padding-top: 10px;
     }
 
     .form-div form input {
@@ -159,6 +161,10 @@ h1 {
         border-radius: 20px;
     }
 
+    .form-p {
+        padding-top: 20px;
+    }
+
     .heading-div {
         height: 300px;
         border-radius: 20px;
@@ -166,6 +172,15 @@ h1 {
 
     h1 {
         padding-top: 100px;
+    }
+
+    .social-icons img {
+        margin-top: 30px;
+    }
+
+    
+    .form-div form input[type="submit"] {
+        width: 60%;
     }
 
 }
